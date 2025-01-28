@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Welcome to the Dashboard</h2>
+    <h3>Your API Keys:</h3>
+    <ul>
+        <!-- Example, dynamically filled with JavaScript or servlet -->
+        <li>API Key 1 - Active <button>Deactivate</button></li>
+        <li>API Key 2 - Inactive <button>Regenerate</button></li>
+    </ul>
+
+    <h3>Generate New API Key:</h3>
+    <form action="ApiKeyServlet" method="POST">
+        <input type="submit" value="Generate New Key">
+    </form>
+</body>
+</html>

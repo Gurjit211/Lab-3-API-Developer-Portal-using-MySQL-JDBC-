@@ -1,0 +1,4 @@
+ // Database connection details
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/api_portal";
+    private static final String USERNAME = "Gurjit";
+    private static final String PASSWORD = "humber";
